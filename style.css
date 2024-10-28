@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #333;
+    line-height: 1.6;
+    color:aliceblue;
+    padding-bottom: 150px;;
+}
+
+header {
+   
+    width: 100%;
+    background: #007acc;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color:darkviolet;
+}
+
+
+section {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+#about h2, #projects h2, #contact h2 {
+    font-size: 2rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #555;
+}
+
+#about ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#about ul li {
+    background: #007acc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+
+#projects .project {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project h3 {
+    font-size: 1.5rem;
+    color: #007acc;
+    margin-bottom: 0.5rem;
+}
+
+#projects .project p {
+    font-size: 1rem;
+    color:#333;
+    margin-bottom: 1rem;
+}
+
+
+#contact p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#contact form {
+    display: grid;
+    grid-gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+#contact button {
+    background: #007acc;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background: #005ea3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #about ul {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    header nav a {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+}
