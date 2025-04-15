@@ -19,6 +19,7 @@ header {
     color: #fff;
     padding: 2rem;
     text-align: center;
+    position: fixed;
 }
 
 header h1 {
@@ -52,6 +53,7 @@ section {
     padding: 2rem 5%;
     max-width: 1200px;
     margin: auto;
+    padding-top:250px;
 }
 
 
